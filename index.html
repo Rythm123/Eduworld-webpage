@@ -8,17 +8,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar background">
-        <ul class="nav-list">
+    <nav class="navbar background h-nav-resp ">
+        <ul class="nav-list visi-resp">
             <div class="logo"> <img src="public/logo.png" alt="logo"> </div>
             <li> <a href="#home">Home</a> </li>
             <li> <a href="#about">About</a> </li>
             <li> <a href="#services">Services</a> </li>
             <li> <a href="#contact">Contact us</a> </li>
         </ul>
-        <div class="rightNav">
+        <div class="rightNav visi-resp">
             <input type="text" name="search" id="search">
             <button class="btn btn-sm">Search</button>
+        </div>
+        <div class="burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
         </div>
     </nav>
 
@@ -40,7 +45,7 @@
         </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="services">
         <div class="paras">
             <p class="textBig Heading">
                 The End Of Your Problems is Here!
@@ -80,7 +85,7 @@
         </div>
     </section>
     <hr>
-    <section class="contact">
+    <section class="contact" id="contact">
         <h2 class="contact-heading">Contact Us</h2>
         <div class="inputMaterial">
             <input type="text" name="name" id="name" placeholder="Enter your name">
@@ -97,4 +102,5 @@
     </footer>
 
 </body>
+<script src="resp.js"></script>
 </html>
